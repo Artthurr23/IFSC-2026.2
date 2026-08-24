@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Linguagem HTML</title>
-
-    <style>
+<!--aa-->
+    <style> /**Codigo CSS */
         h1 {
             color: 5c0a0a;
         }
@@ -20,8 +20,9 @@
         }
         div{ background-color: rgb(235, 186, 177);
         }
-        table,td { border: 1px solid black;
+        table#Sepei,#sepei td,caption,#sepei th { border: 1px solid black;
             border-collapse: collapse;
+            background-color: rgba(67, 67,67, 0.5);
         }
     </style>
 </head>
@@ -145,14 +146,62 @@
                 <td>40,00</td>
             </tr>
             <tr>
-             <td colspan="2" rowspan="1"> total </td>
+
+                <td colspan="2" rowspan="1"> total </td>
                     <td></td>
                     <td>260,00</td>
             </tr>
             
-        </table>
+        </table >
     </section>
+    <table id="Sepei">
+        <caption>SEPEI 2026</caption>
+<tr><th>indice</th><th>nome</th><th>Idade</th></tr>
+<tr><td>1</td><td>Joana</td><td>18</td></tr>
+<tr><td>2</td><td>Oliver</td><td>18</td></tr>
+<tr><td>3</td><td>Kiara</td><td> 17</td></tr>
+<tr><td colspan="2">Total Alunos</td><td>3</td></tr>
+
+    </table>
 </div>
+<section>
+<h1>Formulário</h1>
+<p>As tags de formulário permitem entrada de dados</p>
+<form action="">
+    <label for="inputtelefone">Nome:</label>
+    <input id="inputtelefone"type="text">
+    <label for="inputtelefone">Senha:</label>
+    <input id="inputtelefone"type="password">
+    <label for="inputBagulho"></label>
+    <input type="submit" value="enviar">
+
+</form>
+
+<form action="https://google.com/search" method="get">
+    <label for="inputaura">escreva ai kchorro:</label>
+<input type="text"name ="q">
+<input type="submit">
+</section>
+</form>     
+
+<form method="post">
+    <label for="usr">Usuário</label>
+    <input id="usr" type="text" name="usuario">
+
+    <label for="senha">Senha</label>
+    <input id="senha" type="password" name="Senha">
+
+    <input type="submit">
+</form>
+
+
+
+
+
+
+
+
+
 </body>
 
 </html>
